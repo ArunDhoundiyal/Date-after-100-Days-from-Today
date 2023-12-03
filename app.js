@@ -1,4 +1,4 @@
-addDays = require("date-fns/addDays");
+const addDays = require("date-fns/addDays");
 const import_express = require("express");
 const express_instance = import_express();
 express_instance.get("/", (request, response) => {
